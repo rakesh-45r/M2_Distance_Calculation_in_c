@@ -51,7 +51,7 @@
  It is mandatory to all vehicles and used in medical purpose and military purpose.
 
 # HIGH LEVEL REQUIREMENTS
- -> ![image](https://user-images.githubusercontent.com/80596756/164877751-3c319402-519f-4633-9026-8aada8c72aaa.png)
+ ![image](https://user-images.githubusercontent.com/80596756/164877751-3c319402-519f-4633-9026-8aada8c72aaa.png)
 
  
 # LOW LEVEL REQUIREMENTS
