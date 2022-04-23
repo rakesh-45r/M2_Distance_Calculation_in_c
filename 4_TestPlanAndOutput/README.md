@@ -1,4 +1,4 @@
-# TEST PLAN AND OUTPUT
+# TEST PLAN 
 
  * To know the importance of the project.
  
@@ -82,3 +82,7 @@ RED(CS10): This bit is simply to enable and to disable counter. Although it work
 
 # RESULT
       The output will be appeared on lcd display.
+      
+# OUTPUT
+![Screenshot (23)](https://user-images.githubusercontent.com/91746229/164943378-e7571fe4-5c70-499a-b73b-4611d973779d.png)
+
