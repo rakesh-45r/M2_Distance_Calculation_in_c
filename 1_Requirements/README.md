@@ -55,14 +55,14 @@
 
  
 # LOW LEVEL REQUIREMENTS
- ATMEGA328
+* ATMEGA328
  
-Power supply (5v)
+* Power supply (5v)
 
-Hd44780 (16x2LCD) 
+* Hd44780 (16x2LCD) 
 
-1000uF capacitor
+* 1000uF capacitor
 
-10KΩ resistor (2 pieces) 
+* 10KΩ resistor (2 pieces) 
 
-HC-SR04 sensor.
+* HC-SR04 sensor.
