@@ -1,1 +1,1 @@
-# M2_Distance_Calculation_in_c
+# M2_Distance_Calculator_in_c
