@@ -68,3 +68,15 @@ PIN14 or D7 to PB7 of uC
 In the circuit you can see we have used 8bit communication (D0-D7) however this is not a compulsory and we can use 4bit communication (D4-D7) but with 4 bit communication program becomes a bit complex. So as shown in the above table we are connecting 10 pins of LCD to controller in which 8 pins are data pins and 2 pins for control.
 
 The ultrasonic sensor is a four pin device, PIN1- VCC or +5V; PIN2-TRIGGER; PIN3- ECHO; PIN4- GROUND. Trigger pin is where we give trigger to tell the sensor to measure the distance. Echo is output pin where we get the distance in the form of width of pulse. The echo pin here is connected to controller as an external interrupt source. So to get the width of the signal output, the echo pin of sensor is connected to INT0 (interrupt 0) or PD2.
+
+* ATMEGA328
+The Arduino Uno is a microcontroller board based on the ATmega328 (datasheet). It has 14 digital input/output pins (of which 6 can be used as PWM outputs), 6 analoginputs, a16 MHz crystal oscillator, a USB connection, a power jack, an ICSP header, and a reset button. It contains everything needed to support the microcontroller; simply connect it to a computer with a USB cable or power it with a AC-to-DC adapter or battery to get started.
+* ULTRASONIC SENSOR-SR04
+It emits an ultrasound at 40 000 Hz which travels through the air and if there is an object or obstacle on its path It will bounce back to the module. Considering the travel time and the speed of the sound you can calculate the distance.
+* LCD-16*2
+LCD (Liquid Crystal Display) screen is an electronic display module and find a wide range of applications. A 16x2 LCD display is very basic module and is very commonly used in various devices and circuits. These modules are preferred over seven segments and other multi segment LEDs. The reasons being: LCDs are economical; easily programmable; have no limitation of displaying special & even custom characters (unlike in seven segments), animations and so on. A 16x2 LCD means it can display 16 characters per line and there are 2 such lines. In this LCD each character is displayed in 5x7 pixel matrix. This LCD has two registers, namely, Command and Data.
+
+# CONCLUSION
+Distance measurement using ultrasonic sensor and arduino consist of a transmitter part of ultrasonic module units ultrasonic high frequency waves in the form of polices after collision of these wares with any object, these wares detected by microphone time taken by these wares from transmitter and receiver is used to measure distance from any object. We had used a ultrasonic sensor module of HC-SR04, because this ultrasonic module is initiated with pulse of 10us The distance from any object is calculated from.
+Distance =speed*time
+The human audible range can be converted measure the distance precisely manner.
